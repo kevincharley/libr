@@ -1,0 +1,94 @@
+header{
+    background-color: rgb(5, 42, 99);
+    padding-bottom:20px;
+
+}
+body{background-color: rgb(207, 204, 204);}
+ header ul li{
+    display: inline;
+    list-style: none;
+    padding-inline-start: 20px;
+    font-size: 13px;
+
+}
+
+
+
+header ul li a{
+    color: rgb(197, 221, 243);
+}
+
+
+#blue {
+    color: rgb(248, 248, 248);
+    
+    padding-top: 35px;
+    padding-inline-start: 40px;
+    padding-bottom: 50px;
+    background-color: rgb(4, 4, 58);
+}
+#blue{
+    margin-top: -20px;
+}
+section h1{
+    font-size: 50px;
+    font-family: 'arial verdana',Arial, Helvetica, sans-serif  ;
+    
+}
+section  #box{
+    background-color: rgb(5, 42, 99);
+    color: rgb(5,42,99);
+    padding-bottom: 30px;
+    padding-top: 40px;
+    margin-inline-start: 980px;
+margin-inline-end: 50px;
+margin-top: -88px;}
+
+
+img{
+    border-radius: 50%;
+    width: 70px;
+}
+.avatar{
+    
+    background-color: rgb(255, 255, 255);
+    margin-top: -40px;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+    padding-inline-start: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.avatar p{
+color: rgb(110, 110, 110);
+padding-inline-start: 95px;
+position: relative;
+bottom: 60px;
+
+}
+.avatar  #floor{
+    background-color: rgb(68, 65, 65);
+    padding-inline-start: 2px;
+    margin-inline-end: 1080px;
+    font-size: 12px;
+    color: white;
+    position: relative;
+    bottom: 65px;
+    left: 100px;
+}
+
+.avatar #time{
+    color: rgb(77, 72, 72);
+    font-size: 11px;
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+}
+.avatar ul li {
+    color: rgb(77, 72, 72);
+    font-size: 11px;
+    position: relative;
+    bottom: 75px;
+    left: 140px;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sign in</title>
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./case.css">
+    <link rel="stylesheet" href="./home.css">
+    <script src="./validation2.js">
+        
+    </script>
+</head>
+
+        <header>
+                <div  class="header">
+                    <ul>
+                        <li id="home">
+                            <a href="home.html">HOME</a>
+                        </li>
+    
+    
+                        
+                        
+                        <li id="books"> <a href="log.html">login</a></li>
+                       
+                        
+                        
+                    </ul>
+                </div>
+            
+            </header>
+    
+
+            <div id="r">
+            <form action="" name="myform">
+        <div class="container">
+            <div class="row">
+                <div class="col col-sm-6  col-12"> 
+                       
+                    <table class="table border-less">
+                        <tr>
+                            <td>name</td>
+                            <td><input type="text" name="first1" placeholder="Enter your  Name here" class="form-control" id="name" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])"></td>
+                           
+                      <tr><td><td><p id="dob">Date Of Birth </p>
+                        <input type="date" name="dob1" placeholder="Enter your DOB here" size="40px"></td></td></tr>
+                
+               <tr>
+                   
+              <td>  <p id="mob">Mobile number </p></td>
+              <td>
+                <input type="number"  name="number"   placeholder="Enter your Mobile number" size="50px"required>
+                
+            </td></tr>
+            <tr>
+                  <td>  <p id="email">Email id </p></td>
+                <td>   <input type="text" name="email1" placeholder="Enter your Email id here" size="40px" required></td> 
+                  
+    
+            </tr>
+                                <td>password</td>
+                                <td><input type="password" name="pswd1" placeholder="Enter your password here" class="form-control" id="us" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></td>
+                               
+                            </tr>
+                            <tr>
+                            <td>confirm password</td>
+                            <td><input type="password" name="pswd2" placeholder="Enter your password here" class="form-control" id="pw"required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></td>
+                           
+                                
+                        
+                            <tr>
+                                   <td><td> <td><button type="button" class="btn btn-success"  onclick="first()">signup</button></td></td></td>
+                               
+                            </tr>   
+                                    
+                    </table>
+                </div>
+               
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div></div>
+            </form>
+            <script src="./validation2.js"></script>
+</body>
+</html>
